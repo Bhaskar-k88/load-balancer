@@ -9,4 +9,8 @@ router.get("/fail", (req, res) => {
   res.status(500).send("Server 2 failed");
 });
 
+router.get("/health", (req, res) => {
+  res.status(200).send("OK");
+});
+
 module.exports = router;

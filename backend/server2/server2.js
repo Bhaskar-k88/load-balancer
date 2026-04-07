@@ -9,4 +9,4 @@ app.use(express.json());
 // Use routes
 app.use("/", routes);
 
-app.listen(3002, () => console.log("Server 1 running on port 3002"));
+app.listen(3002, () => console.log("Server 2 running on port 3002"));
